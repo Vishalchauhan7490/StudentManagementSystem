@@ -1,0 +1,119 @@
+2026-04-21 00:00:51.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/api/Student - null null
+2026-04-21 00:00:51.126 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:00:51.128 +05:30 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller StudentManagementSystem.Controllers.StudentController (StudentManagementSystem).
+2026-04-21 00:00:51.132 +05:30 [INF] Fetching all students
+2026-04-21 00:00:51.151 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentManagementSystem.Models.Student, StudentManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-21 00:00:51.159 +05:30 [INF] Executed action StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem) in 27.0594ms
+2026-04-21 00:00:51.164 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:00:51.167 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/api/Student - 200 null application/json; charset=utf-8 64.85ms
+2026-04-21 00:01:09.369 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/api/Student - null null
+2026-04-21 00:01:09.379 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:01:09.386 +05:30 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller StudentManagementSystem.Controllers.StudentController (StudentManagementSystem).
+2026-04-21 00:01:09.392 +05:30 [INF] Fetching all students
+2026-04-21 00:01:09.396 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentManagementSystem.Models.Student, StudentManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-21 00:01:09.398 +05:30 [INF] Executed action StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem) in 7.0327ms
+2026-04-21 00:01:09.402 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:01:09.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/api/Student - 200 null application/json; charset=utf-8 35.8049ms
+2026-04-21 00:01:28.269 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7033/api/Auth/login - application/json 47
+2026-04-21 00:01:28.277 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:28.280 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(StudentManagementSystem.Models.LoginModel) on controller StudentManagementSystem.Controllers.AuthController (StudentManagementSystem).
+2026-04-21 00:01:30.709 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-21 00:01:30.716 +05:30 [INF] Executed action StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem) in 2428.2806ms
+2026-04-21 00:01:30.719 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:30.722 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7033/api/Auth/login - 200 null application/json; charset=utf-8 2453.4243ms
+2026-04-21 00:01:56.013 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7033/api/Auth/login - application/json 47
+2026-04-21 00:01:56.028 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:56.033 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(StudentManagementSystem.Models.LoginModel) on controller StudentManagementSystem.Controllers.AuthController (StudentManagementSystem).
+2026-04-21 00:01:57.977 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-21 00:01:57.982 +05:30 [INF] Executed action StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem) in 1944.6305ms
+2026-04-21 00:01:57.985 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:57.987 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7033/api/Auth/login - 200 null application/json; charset=utf-8 1974.2892ms
+[2026-04-21 00:34:32 INF] User logged in successfully: admin {"SourceContext":"StudentManagementSystem.Controllers.AuthController","ActionId":"406abf71-f2ce-4328-8dd7-e21be2855e1c","ActionName":"StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000009","RequestPath":"/api/Auth/login","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:34:53 INF] Fetching all students {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000000B","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:34:53 INF] Fetched 1 students {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000000B","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:35:17 WRN] Student not found with Id: 11 {"SourceContext":"StudentManagementSystem.Services.StudentService","ActionId":"f6a41c06-efa9-4f7e-8190-2e98dc8a43b5","ActionName":"StudentManagementSystem.Controllers.StudentController.GetById (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000000F","RequestPath":"/api/Student/11","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:35:17 ERR] Error occurred. Path: /api/Student/11, Method: GET {"SourceContext":"StudentManagementSystem.Middleware.ExceptionMiddleware","RequestId":"0HNKV1UCNN289:0000000F","RequestPath":"/api/Student/11","ConnectionId":"0HNKV1UCNN289"}
+System.Collections.Generic.KeyNotFoundException: Student not found
+   at StudentManagementSystem.Services.StudentService.GetStudentByIdAsync(Int32 id) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Services\StudentService.cs:line 32
+   at StudentManagementSystem.Controllers.StudentController.GetById(Int32 id) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Controllers\StudentController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at StudentManagementSystem.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Middleware\ExceptionMiddleware.cs:line 21
+[2026-04-21 00:36:07 INF] Student added: Raj {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"c0df28f4-ed06-4651-b427-b92a14f83715","ActionName":"StudentManagementSystem.Controllers.StudentController.Post (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000011","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:36:07 INF] Student added: Raj {"SourceContext":"StudentManagementSystem.Services.StudentService","ActionId":"c0df28f4-ed06-4651-b427-b92a14f83715","ActionName":"StudentManagementSystem.Controllers.StudentController.Post (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000011","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:36:07 INF] Student created: Raj {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"c0df28f4-ed06-4651-b427-b92a14f83715","ActionName":"StudentManagementSystem.Controllers.StudentController.Post (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000011","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:36:36 ERR] Error adding student {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"c0df28f4-ed06-4651-b427-b92a14f83715","ActionName":"StudentManagementSystem.Controllers.StudentController.Post (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000015","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__Students__A9D10534A8A0E33A'. Cannot insert duplicate key in object 'dbo.Students'. The duplicate key value is (Raj@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.Connection.SqlConnectionInternal.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__251_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StudentManagementSystem.Repositories.StudentRepository.AddAsync(Student student) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Repositories\StudentRepository.cs:line 91
+ClientConnectionId:edf75e84-d43f-4195-8fcb-bc78bfcb27e1
+Error Number:2627,State:1,Class:14
+[2026-04-21 00:36:37 ERR] Error occurred. Path: /api/Student, Method: POST {"SourceContext":"StudentManagementSystem.Middleware.ExceptionMiddleware","RequestId":"0HNKV1UCNN289:00000015","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__Students__A9D10534A8A0E33A'. Cannot insert duplicate key in object 'dbo.Students'. The duplicate key value is (Raj@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.Connection.SqlConnectionInternal.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__251_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StudentManagementSystem.Repositories.StudentRepository.AddAsync(Student student) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Repositories\StudentRepository.cs:line 91
+   at StudentManagementSystem.Services.StudentService.AddStudentAsync(Student student) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Services\StudentService.cs:line 44
+   at StudentManagementSystem.Controllers.StudentController.Post(Student student) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Controllers\StudentController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at StudentManagementSystem.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem\Middleware\ExceptionMiddleware.cs:line 21
+ClientConnectionId:edf75e84-d43f-4195-8fcb-bc78bfcb27e1
+Error Number:2627,State:1,Class:14
+[2026-04-21 00:36:53 INF] Fetching all students {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000017","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:36:53 INF] Fetched 2 students {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000017","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:37:51 INF] Student updated: 2 {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"9f160bd9-59ac-4fe5-b1dd-29277f1bcf75","ActionName":"StudentManagementSystem.Controllers.StudentController.Put (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001B","RequestPath":"/api/Student/2","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:37:51 INF] Student updated: 2 {"SourceContext":"StudentManagementSystem.Services.StudentService","ActionId":"9f160bd9-59ac-4fe5-b1dd-29277f1bcf75","ActionName":"StudentManagementSystem.Controllers.StudentController.Put (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001B","RequestPath":"/api/Student/2","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:37:51 INF] Student updated: 2 {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"9f160bd9-59ac-4fe5-b1dd-29277f1bcf75","ActionName":"StudentManagementSystem.Controllers.StudentController.Put (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001B","RequestPath":"/api/Student/2","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:37:59 INF] Fetching all students {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001D","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:37:59 INF] Fetched 2 students {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001D","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:38:16 INF] Student deleted: 2 {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"202e016e-eb25-4729-9cc1-73dcc8219d90","ActionName":"StudentManagementSystem.Controllers.StudentController.Delete (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001F","RequestPath":"/api/Student/2","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:38:16 INF] Student deleted: 2 {"SourceContext":"StudentManagementSystem.Services.StudentService","ActionId":"202e016e-eb25-4729-9cc1-73dcc8219d90","ActionName":"StudentManagementSystem.Controllers.StudentController.Delete (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001F","RequestPath":"/api/Student/2","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:38:16 INF] Student deleted: 2 {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"202e016e-eb25-4729-9cc1-73dcc8219d90","ActionName":"StudentManagementSystem.Controllers.StudentController.Delete (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:0000001F","RequestPath":"/api/Student/2","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:38:22 INF] Fetching all students {"SourceContext":"StudentManagementSystem.Controllers.StudentController","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000021","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}
+[2026-04-21 00:38:22 INF] Fetched 1 students {"SourceContext":"StudentManagementSystem.Repositories.StudentRepository","ActionId":"0992d9e9-0840-47ef-a64e-4f2bc253d0a5","ActionName":"StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)","RequestId":"0HNKV1UCNN289:00000021","RequestPath":"/api/Student","ConnectionId":"0HNKV1UCNN289"}

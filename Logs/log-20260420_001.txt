@@ -1,0 +1,29 @@
+2026-04-20 23:54:45.093 +05:30 [INF] User profile is available. Using 'C:\Users\91749\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-20 23:54:45.844 +05:30 [INF] Now listening on: https://localhost:7033
+2026-04-20 23:54:45.847 +05:30 [INF] Now listening on: http://localhost:5129
+2026-04-20 23:54:45.949 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-20 23:54:45.951 +05:30 [INF] Hosting environment: Development
+2026-04-20 23:54:45.953 +05:30 [INF] Content root path: C:\Study\DOT NET CORE\StudentManagementSystem\StudentManagementSystem
+2026-04-20 23:54:47.329 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - null null
+2026-04-20 23:54:47.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - 200 null text/html;charset=utf-8 372.6822ms
+2026-04-20 23:54:47.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - null null
+2026-04-20 23:54:47.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-20 23:54:47.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - 200 14951 application/javascript; charset=utf-8 19.393ms
+2026-04-20 23:54:47.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.7423ms
+2026-04-20 23:54:47.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - null null
+2026-04-20 23:54:48.005 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.8006ms
+2026-04-20 23:55:10.763 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7033/api/Auth/login - application/json 47
+2026-04-20 23:55:10.862 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-20 23:55:10.899 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(StudentManagementSystem.Models.LoginModel) on controller StudentManagementSystem.Controllers.AuthController (StudentManagementSystem).
+2026-04-20 23:55:19.626 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-20 23:55:19.636 +05:30 [INF] Executed action StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem) in 8729.6746ms
+2026-04-20 23:55:19.639 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-20 23:55:19.643 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7033/api/Auth/login - 200 null application/json; charset=utf-8 8879.8764ms
+2026-04-20 23:55:39.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/api/Student - null null
+2026-04-20 23:55:39.286 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-20 23:55:39.290 +05:30 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller StudentManagementSystem.Controllers.StudentController (StudentManagementSystem).
+2026-04-20 23:55:39.297 +05:30 [INF] Fetching all students
+2026-04-20 23:55:39.746 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentManagementSystem.Models.Student, StudentManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-20 23:55:39.756 +05:30 [INF] Executed action StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem) in 460.1193ms
+2026-04-20 23:55:39.759 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-20 23:55:39.764 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/api/Student - 200 null application/json; charset=utf-8 595.5769ms

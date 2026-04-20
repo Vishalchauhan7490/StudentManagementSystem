@@ -1,0 +1,30 @@
+2026-04-21 00:00:51.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/api/Student - null null
+2026-04-21 00:00:51.126 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:00:51.128 +05:30 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller StudentManagementSystem.Controllers.StudentController (StudentManagementSystem).
+2026-04-21 00:00:51.132 +05:30 [INF] Fetching all students
+2026-04-21 00:00:51.151 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentManagementSystem.Models.Student, StudentManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-21 00:00:51.159 +05:30 [INF] Executed action StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem) in 27.0594ms
+2026-04-21 00:00:51.164 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:00:51.167 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/api/Student - 200 null application/json; charset=utf-8 64.85ms
+2026-04-21 00:01:09.369 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7033/api/Student - null null
+2026-04-21 00:01:09.379 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:01:09.386 +05:30 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller StudentManagementSystem.Controllers.StudentController (StudentManagementSystem).
+2026-04-21 00:01:09.392 +05:30 [INF] Fetching all students
+2026-04-21 00:01:09.396 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentManagementSystem.Models.Student, StudentManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-21 00:01:09.398 +05:30 [INF] Executed action StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem) in 7.0327ms
+2026-04-21 00:01:09.402 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.StudentController.Get (StudentManagementSystem)'
+2026-04-21 00:01:09.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7033/api/Student - 200 null application/json; charset=utf-8 35.8049ms
+2026-04-21 00:01:28.269 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7033/api/Auth/login - application/json 47
+2026-04-21 00:01:28.277 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:28.280 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(StudentManagementSystem.Models.LoginModel) on controller StudentManagementSystem.Controllers.AuthController (StudentManagementSystem).
+2026-04-21 00:01:30.709 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-21 00:01:30.716 +05:30 [INF] Executed action StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem) in 2428.2806ms
+2026-04-21 00:01:30.719 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:30.722 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7033/api/Auth/login - 200 null application/json; charset=utf-8 2453.4243ms
+2026-04-21 00:01:56.013 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7033/api/Auth/login - application/json 47
+2026-04-21 00:01:56.028 +05:30 [INF] Executing endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:56.033 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(StudentManagementSystem.Models.LoginModel) on controller StudentManagementSystem.Controllers.AuthController (StudentManagementSystem).
+2026-04-21 00:01:57.977 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-21 00:01:57.982 +05:30 [INF] Executed action StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem) in 1944.6305ms
+2026-04-21 00:01:57.985 +05:30 [INF] Executed endpoint 'StudentManagementSystem.Controllers.AuthController.Login (StudentManagementSystem)'
+2026-04-21 00:01:57.987 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7033/api/Auth/login - 200 null application/json; charset=utf-8 1974.2892ms
